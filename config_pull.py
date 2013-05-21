@@ -3,10 +3,8 @@
  
 import os,sys,string
 sys.path.append('/home/user/python/lib/lib/python')
-import socket
-import pexpect,getpass,difflib
+import pexpect
 import xlwt
-import re
 import credential
  
 os.system('rm Devices_Config_Pull.xls') #This will remove previews created spreadsheet
